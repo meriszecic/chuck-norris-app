@@ -1,0 +1,73 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 57.5vh;
+    width: 100%;
+}
+.sve{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.leva-strana{
+    width: 30%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    height: 80%;
+    flex-direction: column;
+}
+.leva-strana div label{
+    margin: 0;
+}
+.leva-strana div h3{
+    margin: 0 0 2% 0 ; 
+}
+.desna-strana{
+    width: 50%;
+}
+.form{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form input{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    width: 28%;
+    height: 4.2vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: .1%;
+}
+.form textarea{
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    padding: 1%;
+    min-width: 28%;
+    min-height: 5vh;
+}
+.form label{
+    font-weight: 600;
+}
+.form button{
+    width: 30%;
+    height: 4.5vh;
+    background-color: #333;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: medium;
+    cursor: pointer;
+}

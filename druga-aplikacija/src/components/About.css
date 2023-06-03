@@ -1,0 +1,54 @@
+.container{
+    width: 100%;
+    height: 57.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.slika{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    border-radius: 10px;
+    height: 95%;
+    box-shadow: #333 .1px .1px 7px;
+}
+.slika img {
+    border-radius: 25%;
+}
+.desna-strana{
+    display: flex;
+    width: 40%;
+    align-items: flex-start;
+    height: 80%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.desna-strana-grornji-deo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 2% 0 2% 2%;
+    flex-direction: row;
+    box-shadow: #333 0 0 5px;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.desna-strana-grornji-deo table {
+    width: 100%;
+}
+
+.desna-strana-grornji-deo table tr{
+    border-bottom: #333 solid 1px;
+    width: 40%;
+}
+.donji-deo-desne-strane{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: small;
+}
